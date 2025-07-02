@@ -21,3 +21,7 @@ This project involved writing and executing SQL queries using various types of j
 ![image](https://github.com/user-attachments/assets/c9fd1caf-ed73-412e-9a18-8495c0d4bb60) ![image](https://github.com/user-attachments/assets/b972d8dc-10b5-4a33-9f7a-7c0817b14df8)
 
 - We have now combined device_id column on the employees and machines tables, giving us a merged view of each machine assigned to an employee.
+
+We must now return the information on all machines and the employees who have machines. Next, we'll do the reverse—retrieving the information of all employees and any machines that are assigned to them.
+
+To achieve this, we’ll complete a LEFT JOIN and a RIGHT JOIN on the employees and machines tables. These joins will allow us to include all records from one of the tables, regardless of whether a match exists in the other. We will link the tables using the common column: device_id.
