@@ -2,7 +2,7 @@
 
 
 # SQL: Complete a SQL join.
-- This project involved writing and executing SQL queries using various types of joins to combine data across multiple related tables in a database. The objective was to retrieve meaningful, connected information by using INNER JOIN, LEFT JOIN, and RIGHT JOIN clauses based on shared key fields.
+This project involved writing and executing SQL queries using various types of joins to combine data across multiple related tables in a database. The objective was to retrieve meaningful, connected information by using INNER JOIN, LEFT JOIN, and RIGHT JOIN clauses based on shared key fields.
 
 # Environments and Technologies Used.
 - Google Cloud Virtual Machines.
