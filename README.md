@@ -29,3 +29,7 @@ To achieve this, we’ll complete a LEFT JOIN and a RIGHT JOIN on the employees 
 ![image](https://github.com/user-attachments/assets/b9116721-d786-460a-b40d-0d4867cffa61) ![image](https://github.com/user-attachments/assets/22e7e770-92c6-4c09-9041-7779e55af836)
 
 - In this case, all records from the machines table are included, regardless of whether they are assigned to an employee or not.
+
+![image](https://github.com/user-attachments/assets/544791a9-33d7-46db-b9a8-2baf7b88b56b)![image](https://github.com/user-attachments/assets/1165693d-64c6-42e1-b2b5-2074a3238d4d)
+
+- This RIGHT JOIN combines the machines and employees tables using the device_id column. It returns all rows from the employees table, along with matching machine details when available. If an employee does not have a machine assigned, the machine's columns will show NULL.
