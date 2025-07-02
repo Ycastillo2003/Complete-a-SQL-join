@@ -35,4 +35,4 @@ To achieve this, we’ll complete a LEFT JOIN and a RIGHT JOIN on the employees 
 - This RIGHT JOIN combines the machines and employees tables using the device_id column. It returns all rows from the employees table, along with matching machine details when available. If an employee does not have a machine assigned, the machine's columns will show NULL.
 
 
-  WE must investigate a security incident, we must retrieve the information on all employees who have made login attempts. To achieve this, we’ll perform an INNER JOIN on the employees and log_in_attempts tables, linking them on the common username column.
+     WE must investigate a security incident, we must retrieve the information on all employees who have made login attempts. To achieve this, we’ll perform an INNER JOIN on the employees and log_in_attempts tables, linking them on the common username column.
