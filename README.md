@@ -36,3 +36,10 @@ To achieve this, we’ll complete a LEFT JOIN and a RIGHT JOIN on the employees 
 
 
      WE must investigate a security incident, we must retrieve the information on all employees who have made login attempts. To achieve this, we’ll perform an INNER JOIN on the employees and log_in_attempts tables, linking them on the common username column.
+
+![image](https://github.com/user-attachments/assets/8df40b14-2b0a-47ed-a710-3af39cda1d82)![image](https://github.com/user-attachments/assets/ef0956a5-e11d-4924-8297-d9c502dc72d7)
+
+This query links the employees table (which contains employee details) with the log_in_attempts table (which logs login activity). By joining them on the username, we get a unified view that shows which employee attempted a login and the details of that attempt.
+
+
+   Thanks for making it to the end of this lab.
